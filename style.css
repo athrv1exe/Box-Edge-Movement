@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color:beige ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#parent{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 5px ;
+    overflow: hidden;
+    position: relative;
+}
+
+.child{
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 1vh;
+    position: relative;
+}
+
+#child1{
+    background-color:cadetblue ;
+}
+
+#child2{
+    background-color: coral;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.btn{
+    width: 7vh;
+    height: 4vh;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#buttons{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.disable{
+    pointer-events: none;
+}
